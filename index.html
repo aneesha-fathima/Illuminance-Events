@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illuminance Events</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Illuminance Events</h1>
+        <nav>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <section id="home">
+        <h2>Welcome to Illuminance Events</h2>
+        <p>Your premier destination for mesmerizing and unforgettable experiences.</p>
+    </section>
+    
+    <section id="events">
+        
+        <div id="countdown">Countdown to Next Event: <span id="timer"></span></div>
+        <div class="event-container">
+            <div class="event">
+                <h3>Music Festival</h3>
+                <p>Join us for an amazing night of music and fun!</p>
+            </div>
+            <div class="event">
+                <h3>Tech Conference</h3>
+                <p>Explore the latest trends in technology and innovation.</p>
+            </div>
+            <div class="event">
+                <h3>Food Expo</h3>
+                <p>Experience delicious cuisines from around the world.</p>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="slides">
+                <img src="song.jpg" alt="Music Festival">
+                <img src="tech.jpg" alt="Concert">
+                <img src="expo.jpg" alt="Event 1">
+                
+            </div>
+        </div>
+        
+    </section>
+
+
+    
+    <section id="gallery">
+        <h2>Event Gallery</h2>
+        <div class="gallery-container">
+            <div class="gallery-item" style="background-image: url('img.jpg');"></div>
+            <div class="gallery-item" style="background-image: url('music.jpg');"></div>
+            <div class="gallery-item" style="background-image: url('out.jpg');"></div>
+        </div>
+    </section>
+    
+    <section id="contact" >
+        <h2 style="text-align: center;">Contact Us</h2>
+        
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Illuminance Events. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
